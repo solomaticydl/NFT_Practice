@@ -1,0 +1,43 @@
+{
+  "name": "Cypher",
+  "description": "The Moroccan information broker, Cypher is a one-man surveillance network who keeps tabs on the enemy’s every move. No secret is safe. No maneuver goes unseen. Cypher is always watching.",
+  "image": "https://ipfs.io/ipfs/QmSXBznzEhMksDuW39DutToGu3jVPSMdzHoTXbJc8QvpqN",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Cypher"
+    },
+    {
+      "trait_type": "Origin",
+      "value": "Morocco"
+    },
+    {
+      "trait_type": "Race",
+      "value": "Human"
+    },
+    {
+      "trait_type": "Gender",
+      "value": "Male"
+    },
+    {
+      "trait_type": "Role",
+      "value": "Sentinel"
+    },
+    {
+      "trait_type": "Basic Abilities",
+      "value": "Trapwire, Cyber Cage"
+    },
+    {
+      "trait_type": "Signature Abilities",
+      "value": "Spycam"
+    },
+    {
+      "trait_type": "Ultimate Ability",
+      "value": "Neural Theft"
+    },
+    {
+      "trait_type": "Ult. Points",
+      "value": "6"
+    }
+  ]
+}

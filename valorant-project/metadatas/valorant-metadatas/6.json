@@ -1,0 +1,43 @@
+{
+  "name": "Omen",
+  "description": "A phantom of a memory, Omen hunts in the shadows. He renders enemies blind, teleports across the field, then lets paranoia take hold as his foe scrambles to learn where he might strike next.",
+  "image": "https://ipfs.io/ipfs/QmUUi4WPwsq6tAiNtN9xnZFG3y6WAPcMooASmcnQWgTrSY",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Omen"
+    },
+    {
+      "trait_type": "Origin",
+      "value": "Earth"
+    },
+    {
+      "trait_type": "Race",
+      "value": "Radiant"
+    },
+    {
+      "trait_type": "Gender",
+      "value": "Male"
+    },
+    {
+      "trait_type": "Role",
+      "value": "Controller"
+    },
+    {
+      "trait_type": "Basic Abilities",
+      "value": "Shrouded Step, Paranoia"
+    },
+    {
+      "trait_type": "Signature Abilities",
+      "value": "Dark Cover"
+    },
+    {
+      "trait_type": "Ultimate Ability",
+      "value": "From the Shadows"
+    },
+    {
+      "trait_type": "Ult. Points",
+      "value": "7"
+    }
+  ]
+}

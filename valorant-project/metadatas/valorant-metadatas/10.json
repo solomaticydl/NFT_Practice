@@ -1,0 +1,43 @@
+{
+  "name": "Viper",
+  "description": "The American chemist, Viper deploys an array of poisonous chemical devices to control the battlefield and cripple the enemy's vision. If the toxins don't kill her prey, her mind games surely will.",
+  "image": "https://ipfs.io/ipfs/Qmbe7FRdvHA8ueqa4SU95edWChfjpowR4ZpdQXsxRqgkdE",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Viper"
+    },
+    {
+      "trait_type": "Origin",
+      "value": "United States"
+    },
+    {
+      "trait_type": "Race",
+      "value": "Human"
+    },
+    {
+      "trait_type": "Gender",
+      "value": "Female"
+    },
+    {
+      "trait_type": "Role",
+      "value": "Controller"
+    },
+    {
+      "trait_type": "Basic Abilities",
+      "value": "Snake Bite, Poison Cloud"
+    },
+    {
+      "trait_type": "Signature Abilities",
+      "value": "Toxic Screen"
+    },
+    {
+      "trait_type": "Ultimate Ability",
+      "value": "Viper's Pit"
+    },
+    {
+      "trait_type": "Ult. Points",
+      "value": "7"
+    }
+  ]
+}

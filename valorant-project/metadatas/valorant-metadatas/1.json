@@ -1,0 +1,43 @@
+{
+  "name": "Sova",
+  "description": "Born from the eternal winter of Russia's tundra, Sova tracks, finds, and eliminates enemies with ruthless efficiency and precision. His custom bow and incredible scouting abilities ensure that even if you run, you cannot hide.",
+  "image": "https://ipfs.io/ipfs/QmWWx1ruLMJUHbk7yw2GCvmqDtjVYZB6pekzb6mF1xqTAA",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Sova"
+    },
+    {
+      "trait_type": "Origin",
+      "value": "Russia"
+    },
+    {
+      "trait_type": "Race",
+      "value": "Human"
+    },
+    {
+      "trait_type": "Gender",
+      "value": "Male"
+    },
+    {
+      "trait_type": "Role",
+      "value": "Initiator"
+    },
+    {
+      "trait_type": "Basic Abilities",
+      "value": "Owl Drone, Shock Bolt"
+    },
+    {
+      "trait_type": "Signature Abilities",
+      "value": "Recon Bolt"
+    },
+    {
+      "trait_type": "Ultimate Ability",
+      "value": "Hunter's Fury"
+    },
+    {
+      "trait_type": "Ult. Points",
+      "value": "8"
+    }
+  ]
+}

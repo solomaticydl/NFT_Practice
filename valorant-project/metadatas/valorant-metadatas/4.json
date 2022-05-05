@@ -1,0 +1,43 @@
+{
+  "name": "Brimstone",
+  "description": "Joining from the USA, Brimstone's orbital arsenal ensures his squad always has the advantage. His ability to deliver utility precisely and from a distance make him an unmatched boots-on-the-ground commander.",
+  "image": "https://ipfs.io/ipfs/QmajJSWs4CdghH3BWYwN4xiyW1L1npkQzyxhBgvahjTT8c",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Brimstone"
+    },
+    {
+      "trait_type": "Origin",
+      "value": "United States"
+    },
+    {
+      "trait_type": "Race",
+      "value": "Human"
+    },
+    {
+      "trait_type": "Gender",
+      "value": "Male"
+    },
+    {
+      "trait_type": "Role",
+      "value": "Controller"
+    },
+    {
+      "trait_type": "Basic Abilities",
+      "value": "Incendiary, Stim Beacon"
+    },
+    {
+      "trait_type": "Signature Abilities",
+      "value": "Sky Smoke"
+    },
+    {
+      "trait_type": "Ultimate Ability",
+      "value": "Orbital Strike"
+    },
+    {
+      "trait_type": "Ult. Points",
+      "value": "7"
+    }
+  ]
+}

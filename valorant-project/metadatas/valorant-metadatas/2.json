@@ -1,0 +1,43 @@
+{
+  "name": "Breach",
+  "description": "Breach, the bionic Swede, fires powerful, targeted kinetic blasts to aggressively clear a path through enemy ground. The damage and disruption he inflicts ensures no fight is ever fair.",
+  "image": "https://ipfs.io/ipfs/Qmc1dYsu355aahnAwr5wfgFkPCLHUo9kF1zzmU8CggCGyH",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Breach"
+    },
+    {
+      "trait_type": "Origin",
+      "value": "Sweden"
+    },
+    {
+      "trait_type": "Race",
+      "value": "Human"
+    },
+    {
+      "trait_type": "Gender",
+      "value": "Male"
+    },
+    {
+      "trait_type": "Role",
+      "value": "Initiator"
+    },
+    {
+      "trait_type": "Basic Abilities",
+      "value": "Aftershock, Flashpoint"
+    },
+    {
+      "trait_type": "Signature Abilities",
+      "value": "Fault Line"
+    },
+    {
+      "trait_type": "Ultimate Ability",
+      "value": "Rolling Thunder"
+    },
+    {
+      "trait_type": "Ult. Points",
+      "value": "7"
+    }
+  ]
+}

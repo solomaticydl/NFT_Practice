@@ -1,0 +1,43 @@
+{
+  "name": "Reyna",
+  "description": "Forged in the heart of Mexico, Reyna dominates single combat, popping off with each kill she scores. Her capability is only limited by her raw skill, making her highly dependent on performance.",
+  "image": "https://ipfs.io/ipfs/QmT9uMANV5uPAp6upaxeGSZCG5cED3WuYA2KveqWsLy6Sc",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Reyna"
+    },
+    {
+      "trait_type": "Origin",
+      "value": "Mexico"
+    },
+    {
+      "trait_type": "Race",
+      "value": "Radiant"
+    },
+    {
+      "trait_type": "Gender",
+      "value": "Female"
+    },
+    {
+      "trait_type": "Role",
+      "value": "Duelist"
+    },
+    {
+      "trait_type": "Basic Abilities",
+      "value": "Leer"
+    },
+    {
+      "trait_type": "Signature Abilities",
+      "value": "Devour, Dismiss"
+    },
+    {
+      "trait_type": "Ultimate Ability",
+      "value": "Empress"
+    },
+    {
+      "trait_type": "Ult. Points",
+      "value": "6"
+    }
+  ]
+}

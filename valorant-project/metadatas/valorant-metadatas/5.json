@@ -1,0 +1,47 @@
+{
+  "name": "Jett",
+  "description": "Representing her home country of South Korea, Jett's agile and evasive fighting style lets her take risks no one else can. She runs circles around every skirmish, cutting enemies before they even know what hit them.",
+  "image": "https://ipfs.io/ipfs/QmS7cV7dDJawxCmV4yAUA8jKgyYLEavt5weQUnQenaEtCU",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Jett"
+    },
+    {
+      "trait_type": "Origin",
+      "value": "South Korea"
+    },
+    {
+      "trait_type": "Race",
+      "value": "Radiant"
+    },
+    {
+      "trait_type": "Gender",
+      "value": "Female"
+    },
+    {
+      "trait_type": "Role",
+      "value": "Duelist"
+    },
+    {
+      "trait_type": "Passive Ability",
+      "value": "Drift"
+    },
+    {
+      "trait_type": "Basic Abilities",
+      "value": "Cloudburst, Updraft"
+    },
+    {
+      "trait_type": "Signature Abilities",
+      "value": "Tailwind"
+    },
+    {
+      "trait_type": "Ultimate Ability",
+      "value": "Blade Storm"
+    },
+    {
+      "trait_type": "Ult. Points",
+      "value": "7"
+    }
+  ]
+}

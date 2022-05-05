@@ -1,0 +1,43 @@
+{
+  "name": "Sage",
+  "description": "The bastion of China, Sage creates safety for herself and her team wherever she goes. Able to revive fallen friends and stave off aggressive pushes, she provides a calm center to a hellish fight.",
+  "image": "https://ipfs.io/ipfs/QmcfYwbAJ1WDzTZCmNuwvKyEhnfQLcaVJeFQTJyEaL67ND",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Sage"
+    },
+    {
+      "trait_type": "Origin",
+      "value": "China"
+    },
+    {
+      "trait_type": "Race",
+      "value": "Radiant"
+    },
+    {
+      "trait_type": "Gender",
+      "value": "Female"
+    },
+    {
+      "trait_type": "Role",
+      "value": "Sentinel"
+    },
+    {
+      "trait_type": "Basic Abilities",
+      "value": "Barrier Orb, Slow Orb"
+    },
+    {
+      "trait_type": "Signature Abilities",
+      "value": "Healing Orb"
+    },
+    {
+      "trait_type": "Ultimate Ability",
+      "value": "Resurrection"
+    },
+    {
+      "trait_type": "Ult. Points",
+      "value": "8"
+    }
+  ]
+}

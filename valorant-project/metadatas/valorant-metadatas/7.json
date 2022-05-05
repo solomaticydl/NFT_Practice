@@ -1,0 +1,43 @@
+{
+  "name": "Phoenix",
+  "description": "Hailing from the U.K., Phoenix's star power shines through in his fighting style, igniting the battlefield with flash and flare. Whether he's got backup or not, he'll rush into a fight on his own terms.",
+  "image": "https://ipfs.io/ipfs/QmfXXiEM8KE3c9rCi6b3tD7GiY49eJ2LQccownXamfxAc8",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Phoenix"
+    },
+    {
+      "trait_type": "Origin",
+      "value": "United Kingdom"
+    },
+    {
+      "trait_type": "Race",
+      "value": "Radiant"
+    },
+    {
+      "trait_type": "Gender",
+      "value": "Male"
+    },
+    {
+      "trait_type": "Role",
+      "value": "Duelist"
+    },
+    {
+      "trait_type": "Basic Abilities",
+      "value": "Blaze, Curveball"
+    },
+    {
+      "trait_type": "Signature Abilities",
+      "value": "Hot Hands"
+    },
+    {
+      "trait_type": "Ultimate Ability",
+      "value": "Run it Back"
+    },
+    {
+      "trait_type": "Ult. Points",
+      "value": "6"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "name": "Raze",
+  "description": "Raze explodes out of Brazil with her big personality and big guns. With her blunt-force-trauma playstyle, she excels at flushing entrenched enemies and clearing tight spaces with a generous dose of “boom.”",
+  "image": "https://ipfs.io/ipfs/QmNsPcPNeV5AmAgjf69NaV4tekWuzyJPSQ2PNXSEt2K58J",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Raze"
+    },
+    {
+      "trait_type": "Origin",
+      "value": "Brazil"
+    },
+    {
+      "trait_type": "Race",
+      "value": "Human"
+    },
+    {
+      "trait_type": "Gender",
+      "value": "Female"
+    },
+    {
+      "trait_type": "Role",
+      "value": "Duelist"
+    },
+    {
+      "trait_type": "Basic Abilities",
+      "value": "Boom Bot, Blast Pack"
+    },
+    {
+      "trait_type": "Signature Abilities",
+      "value": "Paint Shells"
+    },
+    {
+      "trait_type": "Ultimate Ability",
+      "value": "Showstopper"
+    },
+    {
+      "trait_type": "Ult. Points",
+      "value": "8"
+    }
+  ]
+}
