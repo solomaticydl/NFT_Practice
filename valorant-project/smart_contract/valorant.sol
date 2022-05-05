@@ -1,4 +1,8 @@
 /**
+ *Submitted for verification at Etherscan.io on 2022-05-05
+*/
+
+/**
  *Submitted for verification at Etherscan.io on 2022-01-28
 */
 
@@ -1273,18 +1277,18 @@ pragma solidity ^0.8.0;
 //import '@openzeppelin/contracts/token/ERC721/ERC721.sol';
 //import '@openzeppelin/contracts/token/ERC721/extensions/ERC721Enumerable.sol';
 
-contract Sloth is ERC721, ERC721Enumerable, Ownable {
+contract Valorant is ERC721, ERC721Enumerable, Ownable {
   using Strings for uint256;
   bool public _isWhiteListSaleActive = false;
   bool public _isSaleActive = false;
 
   // Constants
-  uint256 constant public MAX_SUPPLY = 2022;//總量
-  uint256 public mintPrice = 0.08 ether;//mint 價錢
-  uint256 public whiteListPrice = 0.06 ether;//白名單價錢
+  uint256 constant public MAX_SUPPLY = 10000; // 總量
+  uint256 public mintPrice = 0.02 ether; // mint價錢
+  uint256 public whiteListPrice = 0.012 ether; // 白名單價錢
   bool public iswhitelist = true;
-  uint256 public maxwhitelistBalance=2;//白名單上限
-  uint256 public revealTimeStamp = block.timestamp+86400*14 ; //解盲天數
+  uint256 public maxwhitelistBalance = 2; // 白名單上限
+  uint256 public revealTimeStamp = block.timestamp + 86400 * 7 ; // 解盲天數
 
 
   string private _baseURIExtended;
@@ -1295,7 +1299,7 @@ contract Sloth is ERC721, ERC721Enumerable, Ownable {
 
   event TokenMinted(uint256 supply);
 
-  constructor() ERC721('Swag Sloth', 'SLOTH') {}//token名字
+  constructor() ERC721('Valorant', 'VAL') {} // token名字
 
   function flipWhiteListSaleActive() public onlyOwner {
     _isWhiteListSaleActive = !_isWhiteListSaleActive;
@@ -1328,9 +1332,9 @@ contract Sloth is ERC721, ERC721Enumerable, Ownable {
     payable(to).transfer(balance);
   }//領錢
 
-  function preserveMint(uint numSloths, address to) public onlyOwner {
-    require(totalSupply() + numSloths <= MAX_SUPPLY, 'Preserve mint would exceed max supply');
-    _mintSloth(numSloths, to);
+  function preserveMint(uint nums, address to) public onlyOwner {
+    require(totalSupply() + nums <= MAX_SUPPLY, 'Preserve mint would exceed max supply');
+    _mintValorantCharacter(nums, to);
     emit TokenMinted(totalSupply());
   }//項目方自己mint
 
@@ -1338,7 +1342,7 @@ contract Sloth is ERC721, ERC721Enumerable, Ownable {
     return totalSupply();
   }//目前mint的量
 
-  function getSlothByOwner(address _owner) public view returns (uint256[] memory) {
+  function getValorantCharacterByOwner(address _owner) public view returns (uint256[] memory) {
     uint256 tokenCount = balanceOf(_owner);
     uint256[] memory tokenIds = new uint256[](tokenCount);
     for (uint256 i; i < tokenCount; i++) {
@@ -1348,11 +1352,11 @@ contract Sloth is ERC721, ERC721Enumerable, Ownable {
   }//查詢tokenid
 
 
-  function mintSloths(uint numSloths) public payable {
-    require(_isSaleActive, 'Sale must be active to mint Sloths');
-    require(totalSupply() + numSloths <= MAX_SUPPLY, 'Sale would exceed max supply');
-    require(numSloths * mintPrice <= msg.value, 'Not enough ether sent');
-    _mintSloth(numSloths, msg.sender);
+  function mintValorantCharacter(uint nums) public payable {
+    require(_isSaleActive, 'Sale must be active to mint Valorant Characters');
+    require(totalSupply() + nums <= MAX_SUPPLY, 'Sale would exceed max supply');
+    require(nums * mintPrice <= msg.value, 'Not enough ether sent');
+    _mintValorantCharacter(nums, msg.sender);
     emit TokenMinted(totalSupply());
   }//mint ＮＦＴ
   
@@ -1360,12 +1364,12 @@ contract Sloth is ERC721, ERC721Enumerable, Ownable {
     revealTimeStamp = newRevealTimeStamp;
   }//設定解盲時間
 
-  function whiteListMintSloths(uint numSloths) public payable {
-    require(_isWhiteListSaleActive, 'Sale must be active to mint Sloths');
-    require(totalSupply() + numSloths <= MAX_SUPPLY, 'Sale would exceed max supply');
-    require(balanceOf(msg.sender) + numSloths <= maxwhitelistBalance, 'Sale would exceed max Whitelist balance');
+  function whiteListMintValorantCharacter(uint nums) public payable {
+    require(_isWhiteListSaleActive, 'Sale must be active to mint Valorant Characters');
+    require(totalSupply() + nums <= MAX_SUPPLY, 'Sale would exceed max supply');
+    require(balanceOf(msg.sender) + nums <= maxwhitelistBalance, 'Sale would exceed max Whitelist balance');
     uint256 price = whiteListPrice;
-    require(numSloths * price <= msg.value, 'Not enough ether sent');
+    require(nums * price <= msg.value, 'Not enough ether sent');
     if (whiteList[msg.sender] == true) {
     price = whiteListPrice;
     whiteList[msg.sender] = false;
@@ -1373,14 +1377,14 @@ contract Sloth is ERC721, ERC721Enumerable, Ownable {
     else  {
     revert('Not in white list');
     }
-    _mintSloth(numSloths, msg.sender);
+    _mintValorantCharacter(nums, msg.sender);
     emit TokenMinted(totalSupply());
   }//白名單mint
 
 
-  function _mintSloth(uint256 numSloths, address recipient) internal {
+  function _mintValorantCharacter(uint256 nums, address recipient) internal {
     uint256 supply = totalSupply();
-    for (uint256 i = 0; i < numSloths; i++) {
+    for (uint256 i = 0; i < nums; i++) {
       _safeMint(recipient, supply + i);
     }
   }
@@ -1424,4 +1428,3 @@ contract Sloth is ERC721, ERC721Enumerable, Ownable {
     return super.supportsInterface(interfaceId);
   }
 }
- 
